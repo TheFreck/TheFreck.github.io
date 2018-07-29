@@ -12,40 +12,33 @@
 
 }
 
-#pCard{
-    position: absolute;
-    height: 750px;
-    top: 150px;
-    left:188px;
-    margin-top: 3%;
-}
-#cCard{
-    height: 650px;
-    top: 175px;
-    left: 188px;
-}
-
 #name, #email, #comments{
-    width: 100%;
+    width: 98%;
     margin: 5px;
     padding-left: 10px;
+    color: rgb(190, 190, 190);
 }
+
 #name{
     height: 20px;
+    margin: 5px 0;
 }
 #email{
     height: 20px;
+    margin: 5px 0;
 }
 #comments{
     padding-bottom: 180px;
     font-size: 22px;
+    margin: 5px 0;
 
 }
 #submit{
-    margin: 5px;
+    margin: 5px 0;
     padding: 5px 10px;
-
-}
-#contactForm{
-    padding-top: 15px;
+    background: #4aaaa5;
+    color: #f5f5f5;
+    border: none;
+    width: 100px;
+    height: 40px;
 }

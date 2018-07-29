@@ -5,14 +5,14 @@
 }
 .nav{
     background: #ffffff;
-    border-color: #858484;
+    border-color: #dddddd;
     position: absolute;
     left: 0;
     right: 0;
     height: 75px;
     padding: 1.618%;
     margin: 0;
-    top: 0;  
+    top: 0;
     border: solid;
     border-width: 0 0 5px 0;
 }
@@ -22,42 +22,42 @@
     left: 190px;
     top: 0;
     bottom: 0;
-    padding: 40px;
+    padding: 40px 40px;
     font-size: 36px;
-    color: #ffffff;
+    color: #f6f6f6;
 }
 .navigation{
     position: absolute;
     right: 145px;
     top: 0;
     bottom: 0;
-    padding: 40px 20px;
+    padding: 50px 20px;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 22px;
+    font-size: 18px;
+}
+.about, .contact, .portfolio{
+    height: 10px;
+    padding-bottom: 10px;
+    float: left;
+    margin: 0 10px;
 }
 .about{
     margin-right: 10px;
-    float: left;
-    margin: 10px;
 }
 .contact{
     border-left: solid;
     border-right: solid;
     padding-left: 10px;
     padding-right: 10px;
-    float: left;
-    margin: 10px;
 }
 .portfolio{
     margin-left: 10px;
-    float: left;
-    margin: 10px;
 }
 .card{
     background: #ffffff;
     position: absolute;
-    height: 85%;
+    height: 550px;
     width: 960px;
     left: 5px;
     top: 5px;
@@ -78,6 +78,18 @@
     padding: 0;
     border: ridge;
     border-color: #dddddd;
+}
+.cCard{
+    height: 650px;
+    top: 175px;
+    left: 188px;
+}
+.pCard{
+    position: absolute;
+    height: 650px;
+    top: 115px;
+    left:188px;
+    margin-top: 3%;
 }
 .copyright{
     text-align: center;
