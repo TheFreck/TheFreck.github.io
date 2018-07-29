@@ -1,0 +1,130 @@
+.portP{
+    font-size: 24px;
+    margin: 10px;
+    margin-top: 20px;
+}
+.nav{
+    background: #ffffff;
+    border-color: #858484;
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 75px;
+    padding: 1.618%;
+    margin: 0;
+    top: 0;  
+    border: solid;
+    border-width: 0 0 5px 0;
+}
+.logo{
+    background: #4aaaa5;
+    position: absolute;
+    left: 190px;
+    top: 0;
+    bottom: 0;
+    padding: 40px;
+    font-size: 36px;
+    color: #ffffff;
+}
+.navigation{
+    position: absolute;
+    right: 145px;
+    top: 0;
+    bottom: 0;
+    padding: 40px 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 22px;
+}
+.about{
+    margin-right: 10px;
+    float: left;
+    margin: 10px;
+}
+.contact{
+    border-left: solid;
+    border-right: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    margin: 10px;
+}
+.portfolio{
+    margin-left: 10px;
+    float: left;
+    margin: 10px;
+}
+.card{
+    background: #ffffff;
+    position: absolute;
+    height: 85%;
+    width: 960px;
+    left: 5px;
+    top: 5px;
+    padding: 20px 40px;
+    border: solid;
+    border-radius: 1%;
+    border-color: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* overflow-y: scroll; */
+}
+.cardBorder{
+    background: #f1f1f1;
+    position: relative;
+    width: 1055px;
+    height: 650px;
+    left: 185px;
+    top: 170px;
+    padding: 0;
+    border: ridge;
+    border-color: #dddddd;
+}
+.copyright{
+    text-align: center;
+    font-size: 14px;
+    color: #cccccc;
+}
+.tiles{
+    position: relative;
+    display: inline-grid;
+    margin: 40px 60px 0 0;
+    width: 250px;
+    height: 180px;
+    border: solid;
+}
+.image{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner{
+    background: #4aaaa5;
+    color: #cccccc;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 60px;
+    text-align: center;
+    opacity: .9;
+    font-size: 22px;
+}
+.container{
+    position: fixed;
+    background: #ffffff;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    right: auto;
+    width: 1400px;
+
+}
+.background{
+    position: fixed;
+    width: 1400px;
+    height: 100%;
+}
+.bold{
+    font-weight: bold;
+}
